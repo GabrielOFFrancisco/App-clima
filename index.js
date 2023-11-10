@@ -6,7 +6,7 @@ const weatherDetails = document.querySelector('.weather-details');
 const error = document.querySelector('.not-found');
 
 function searchWeather() {
-    const APIKEY = '185dbcc57e27f9315a49d3f1c762ebd7';
+    const APIKEY = 0; /* insira sua chave da API aqui */
     const city = input.value;
 
     if (city === '') return;
